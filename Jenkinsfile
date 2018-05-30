@@ -16,11 +16,11 @@ pipeline {
             }
         }
 
-        stage('Deplo'){
+        stage('Deploy'){
             steps {
                 echo "Code deployed"
             }
-      stage('ENd'){
+       stage('ENd'){
             steps {
                 echo "End"
             }
