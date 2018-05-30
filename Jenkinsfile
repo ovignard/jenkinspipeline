@@ -20,10 +20,6 @@ pipeline {
             steps {
                 echo "Code deployed"
             }
-       stage('ENd'){
-            steps {
-                echo "End"
-            }
-        }
+     
     }
 }
