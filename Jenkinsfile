@@ -5,6 +5,8 @@ pipeline {
         stage('Init'){
             steps {
                 echo "Testing ..."
+                 echo "Testing ..."
+                 echo "Testing ..."
             }
         }
 
@@ -17,6 +19,10 @@ pipeline {
         stage('Deplo'){
             steps {
                 echo "Code deployed"
+            }
+      stage('ENd'){
+            steps {
+                echo "End"
             }
         }
     }
