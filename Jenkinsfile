@@ -13,6 +13,8 @@ pipeline {
                 }
             }
         }
-        stage ('Deploy to Staging')
+        stage ('Deploy to Staging'){
+            
+        }
     }
 }
